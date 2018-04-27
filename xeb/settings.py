@@ -25,7 +25,7 @@ SECRET_KEY = '*cvqzx-e8e0x^m9h$v93awhf+*6t26oz9rix5t*r**8jox^6@e'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['45.77.220.217','www.qxtech.top']
+ALLOWED_HOSTS = ['45.77.220.217','www.qxtech.top','localhost']
 
 
 # Application definition
@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 	#'polls.app.PollsConfig',
+	'home.apps.HomeConfig',
 ]
 
 MIDDLEWARE = [
